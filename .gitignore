@@ -1,0 +1,37 @@
+# 🧠 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔐 Virtual environment (VERY IMPORTANT)
+venv/
+.env/
+env/
+ENV/
+
+# 📦 Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# 📄 Logs
+*.log
+
+# 🗄️ Database files (if any local)
+*.db
+*.sqlite3
+
+# 🔑 Environment variables / secrets
+.env
+*.env
+
+# 🧪 Testing
+.coverage
+.pytest_cache/
+
+# 🧑‍💻 VS Code settings (optional)
+.vscode/
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db

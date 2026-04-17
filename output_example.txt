@@ -1,0 +1,15 @@
+(venv) PS C:\CodeGhost07\Development\student-management-program> python main.py 
+Do you want to enter student records(Y/n) = y
+Enter student's name: Aditya Kumar Gupta
+Enter student's class: XI-A1
++------+--------------------+---------+
+|   ID | Name               | Class   |
++======+====================+=========+
+|    1 | Jai Verma          | XI-A1   |
++------+--------------------+---------+
+|    2 | Lochan Dhingra     | XI-A1   |
++------+--------------------+---------+
+|    3 | Aditya Kumar Gupta | XI-A1   |
++------+--------------------+---------+
+Record entered successfully! 
+Do you want to enter student records(Y/n) = n
