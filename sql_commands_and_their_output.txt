@@ -23,3 +23,29 @@ mysql> select * from student;
 +----+-----------------+-------+
 2 rows in set (0.00 sec)
 
+mysql> create table marks(s_id int primary key, marks int, foreign key (s_id) references student(id));
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> alter table marks modify column marks double;
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from student;
++----+--------------------+-------+
+| id | name               | class |
++----+--------------------+-------+
+|  1 | Jai Verma          | XI-A1 |
+|  2 | Lochan Dhingra     | XI-A1 |
+|  3 | Aditya Kumar Gupta | XI-A1 |
++----+--------------------+-------+
+3 rows in set (0.00 sec)
+
+mysql> select * from marks;
++------+-------+
+| s_id | marks |
++------+-------+
+|    1 |  91.6 |
+|    2 |  90.8 |
+|    3 |    86 |
++------+-------+
+3 rows in set (0.00 sec)
